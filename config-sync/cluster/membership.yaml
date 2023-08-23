@@ -6,8 +6,5 @@ metadata:
   name: membership
 spec:
   forProvider:
-    endpoint:
-      - gkeCluster:
-          - resourceLinkSelector:
-              matchLabels:
-                crossplane.io/claim-namespace: google
+    labels:
+      crossplane.io/claim-namespace: google
