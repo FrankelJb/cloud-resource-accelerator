@@ -1,11 +1,11 @@
-apiVersion: gkehub.gcp.gke.cloud.google.com/v1beta1
-kind: Membership
-metadata:
-  labels:
-    testing.anthos/name: membership
-  name: gke-from-config
-spec:
-  forProvider:
-    project: "947390050528"
+# apiVersion: gkehub.gcp.gke.cloud.google.com/v1beta1
+# kind: Membership
+# metadata:
+#   labels:
+#     testing.anthos/name: membership
+#   name: gke-from-config
+# spec:
+#   forProvider:
+#     project: "947390050528"
     # labels:
     #   - crossplane.io/claim-namespace: google
