@@ -7,4 +7,6 @@ metadata:
 spec:
   forProvider:
     labels:
-      crossplane.io/claim-namespace: google
+      - resourceLinkSelector:
+          matchLabels:
+            crossplane.io/claim-namespace: google
