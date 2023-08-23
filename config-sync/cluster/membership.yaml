@@ -6,5 +6,6 @@ metadata:
   name: gke-from-config
 spec:
   forProvider:
-    labels:
-      - crossplane.io/claim-namespace: google
+    project: 947390050528
+    # labels:
+    #   - crossplane.io/claim-namespace: google
