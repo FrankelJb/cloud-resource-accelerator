@@ -10,4 +10,4 @@ spec:
       - gkeCluster:
           - resourceLinkSelector:
               matchLabels:
-                cluster-owner: abc
+                crossplane.io/claim-name: gke-with-3
