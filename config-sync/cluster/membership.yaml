@@ -4,7 +4,6 @@ metadata:
   labels:
     testing.anthos/name: membership
   name: membership
-  namespace: google
 spec:
   forProvider:
     endpoint:
