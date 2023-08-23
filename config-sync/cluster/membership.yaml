@@ -3,7 +3,7 @@ kind: Membership
 metadata:
   labels:
     testing.anthos/name: membership
-  name: membership
+  name: gke-from-config
 spec:
   forProvider:
     labels:
