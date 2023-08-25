@@ -9,10 +9,10 @@ spec:
 #     name: default-aws # edit to match provider config if not default
   forProvider:
     region: us-east-1
-    roleArn: arn:aws:iam::507aef # replace with cluster role ARN
+    roleArn: arn:aws:iam::389906835311:role/anthos-role
     version: "1.25"
     vpcConfig:
       - subnetIds:
-        - subnet-0 #replace with cluster subnets
-        - subnet-1
-        - subnet-2
+        - subnet-0566150d65fd1fc60
+        - subnet-072b99f2939e57942
+        - subnet-0c0078044dbeb14fb

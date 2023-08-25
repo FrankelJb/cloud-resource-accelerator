@@ -8,7 +8,7 @@ spec:
   sourceType: git
   sourceFormat: hierarchy
   git:
-    repo: https://github.com/bkauf/cloud-resource-accelerator
+    repo: https://github.com/FrankelJb/cloud-resource-accelerator
     auth: none
     dir: config-sync
     branch: main

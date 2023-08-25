@@ -9,15 +9,15 @@ spec:
 #     name: default-aws
   forProvider:
     clusterName: eks-cluster
-    nodeRoleArn: arn:aws:iam::50709938 # replace with node role ARN
+    nodeRoleArn: arn:aws:iam::389906835311:role/anthos-role
     region: us-east-1
     scalingConfig:
       - desiredSize: 1
         maxSize: 6
         minSize: 1
     subnetIds: # replace with subnets of cluster
-      - subnet-0
-      - subnet-1
-      - subnet-2
+      - subnet-0566150d65fd1fc60
+      - subnet-072b99f2939e57942
+      - subnet-0c0078044dbeb14fb
     instanceTypes:
       - t3.small
