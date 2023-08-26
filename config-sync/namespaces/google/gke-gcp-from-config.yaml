@@ -12,7 +12,7 @@ spec:
     clusterName: "gke-with-3"
     nodeSize: large  # Possible values small, medium, large
     minNodeCount: 3
-    k8sVersion: "1.24"
+    k8sVersion: "1.25"
     fleetProject: "947390050528" #GCP project number of fleet
     # Available GCP Regions for attached cluster API 
     #https://cloud.google.com/anthos/clusters/docs/multi-cloud/attached/eks/reference/supported-regions
